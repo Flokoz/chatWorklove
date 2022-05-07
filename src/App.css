@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#master {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+  background-image: url('https://wallpaper.dog/large/5530659.png');
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-x: hidden;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.label {
+  display: flex;
+  margin: 20px;
+  margin-left: 7%;
+  color: #FF8C00;
+  width: 50%;
+  height: auto;
+  text-shadow: 0 0 0.500em hsl(0, 0, 100%);
+  text-shadow: 0 0 0.250em #FF8C00;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 30px;
+  border: #FF8C00 2px solid;
+  box-shadow: 0 0 1em 0 #FF8C00;
+  background: rgba(0, 0, 0, 0.6);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input {
+  display: flex;  
+  margin: 5px;
+  margin-left: 50%;
+  color: #0078B3;
+  width: 40%;
+  height: 2em;
+  text-shadow: 0 0 0.500em hsl(0, 0, 100%);
+  text-shadow: 0 0 0.250em #0078B3;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+  border: #0078B3 2px solid;
+  box-shadow: 0 0 1em 0 #0078B3;
+  background: rgba(0, 0, 0, 0.6);
 }
+
+.input:focus {
+  display: flex;  
+  margin: 5px;
+  margin-left: 50%;
+  color: #ADFF2F;
+  width: 40%;
+  height: 2em;
+  text-shadow: 0 0 0.500em hsl(0, 0, 100%);
+  text-shadow: 0 0 0.250em #ADFF2F;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+  border: #ADFF2F 2px solid;
+  box-shadow: 0 0 1em 0 #ADFF2F;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.inputError{
+  display: flex;  
+  margin: 5px;
+  margin-left: 50%;
+  color: red;
+  width: 40%;
+  height: 2em;
+  text-shadow: 0 0 0.500em hsl(0, 0, 100%);
+  text-shadow: 0 0 0.250em red;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+  border: red 2px solid;
+  box-shadow: 0 0 1em 0 red;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#button {
+  display: flex;
+  margin: 5px;
+  margin-left: 43%;
+  color: #00ACFF;
+  width: 7em;
+  height: 2em;
+  text-shadow: 0 0 0.500em hsl(0, 0, 100%);
+  text-shadow: 0 0 0.250em #00ACFF;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+  border: #00ACFF 2px solid;
+  box-shadow: 0 0 1em 0 #00ACFF;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  
+}
+
+#button:hover{
+  display: flex;
+  margin: 5px;
+  margin-left: 43%;
+  color: #ADFF2F;
+  width: 7em;
+  height: 2em;
+  text-shadow: 0 0 0.500em hsl(0, 0, 100%);
+  text-shadow: 0 0 0.250em #ADFF2F;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 20px;
+  border: #ADFF2F 2px solid;
+  box-shadow: 0 0 1em 0 #ADFF2F;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.error {
+  display: flex;  
+  margin: 5px;
+  margin-left: 55%;
+  color: red;
+  width: 30%;
+  height: auto;
+  text-shadow: 0 0 0.500em hsl(0, 0, 100%);
+  text-shadow: 0 0 0.250em red;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 15px;
+  border: red 2px solid;
+  box-shadow: 0 0 1em 0 red;
+  background: rgba(0, 0, 0, 0.6);
+  
+}
+
