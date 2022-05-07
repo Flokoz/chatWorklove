@@ -1,3 +1,8 @@
+# Detalhes do projeto
+Este projeto é uma ferramenta de coleta de dados atravez de um chat, o uso da teoria das cores da
+ao usuario uma experiência mais agradavel e intuitiva.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
